@@ -1,19 +1,13 @@
 const express = require('express');
 const path = require('path');
-const mongoose = require('mongoose');
+
+const db = require('./database')
+
 
 const app = express();
 
+db.connect()
 
-mongoose.connect('mongodb://localhost:27017/')
-
-const db = mongoose.connection
-
-db.once('open', () =>{
-    console.log('Connected to DB')
-})
-
-db.on('error', console.error.bind(console, 'connection error'))
 
 
 //definindo template engine
