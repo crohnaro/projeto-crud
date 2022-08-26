@@ -7,6 +7,9 @@ const app = express();
 
 db.connect();
 
+
+
+
 //definindo template engine
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
