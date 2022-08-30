@@ -27,7 +27,15 @@ async function add(req, res){
     res.send('cadastro realizado')
 }
 
+function listUsers (req, res) {
+    res.render('listUsers', {
+        tittle: 'Listagem de Users',
+        users: []
+    })
+}
+
 module.exports = {
     index,
     add,
+    listUsers,
 }
