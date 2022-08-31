@@ -13,4 +13,8 @@ router.post('/register/add',CustomersController.add)
 //Listar
 router.get('/list', CustomersController.listUsers)
 
+//editar
+router.get('/edit', CustomersController.indexEdit)
+//router.post('/edit', CustomersController.edit)
+
 module.exports = router
