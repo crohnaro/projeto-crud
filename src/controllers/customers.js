@@ -42,9 +42,14 @@ async function listUsers (req, res) {
     })
 }
 
-function indexEdit (req, res) {
+async function indexEdit (req, res) {
+    const { id } = req.query
+
+    const user = await CustomersModel.findById(id)
+    
     res.render('edit', {
-        tittle: 'Editar Cliente'
+        tittle: 'Editar Cliente',
+        user,
     })
 }
 

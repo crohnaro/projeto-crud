@@ -13,19 +13,19 @@
     <form action="/edit" method="POST">
         <div>
             <label for="">Name</label>
-            <input type="text" name="name" placeholder="Digite o seu nome">
+            <input type="text" name="name" placeholder="Digite o seu nome" value="<%= user.name %>">
         </div>
         <div>
             <label for="">Age</label>
-            <input type="text" name="age" placeholder="Digite a sua idade">
+            <input type="text" name="age" placeholder="Digite a sua idade" value="<%= user.age %>">
         </div>
         <div>
             <label for="">Email</label>
-            <input type="text" name="email" placeholder="Digite o seu email">
+            <input type="text" name="email" placeholder="Digite o seu email" value="<%= user.email %>">
         </div>
         <div>
             <label for="">password</label>
-            <input type="text" name="password" placeholder="Digite a sua senha">
+            <input type="text" name="password" placeholder="Digite a sua senha" value="<%= user.password %>">
         </div>
         <button type="submite">Editar</button>
     </form>
