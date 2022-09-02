@@ -25,5 +25,5 @@
   <h1> Tecnologias envolvidas </h1>
   <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
   <img width="80px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
-  <img width="100px" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png">
+  <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg">
 </div>
