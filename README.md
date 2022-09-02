@@ -1,0 +1,29 @@
+<div align="center"> <h1> Projeto Crud de Cadastros </h1> </div>
+
+<div align="center">Preview estará disponivel em breve</div>
+  
+  
+<br>
+<br>
+<br>  
+<div align="center"> <h4> Site criado para estudos no Back-End com integração de banco de dados e libs. </h4> </div>
+
+<br>
+<br>
+<br> 
+
+
+<div align="center"> <h2> Status: Em desenvolvimento </h2> 
+<img width="70px" src="https://www.svgrepo.com/show/158167/web-development.svg">
+</div>
+
+
+<br>
+<br>
+<br> 
+<div align="center"> 
+  <h1> Tecnologias envolvidas </h1>
+  <img width="100px" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
+  <img width="80px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+  <img width="100px" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png">
+</div>
