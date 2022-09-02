@@ -8,14 +8,7 @@
 <br>  
 <div align="center"> <h4> Site criado para estudos no Back-End com integração de banco de dados e libs. </h4> </div>
 
-<br>
-<br>
-<br> 
 
-
-<div align="center"> <h2> Status: Em desenvolvimento </h2> 
-<img width="70px" src="https://www.svgrepo.com/show/158167/web-development.svg">
-</div>
 
 
 <br>
